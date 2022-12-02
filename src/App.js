@@ -1,7 +1,12 @@
 import React from "react";
+import States from "./Hooks/useState/States";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <States />
+    </div>
+  );
 };
 
 export default App;
